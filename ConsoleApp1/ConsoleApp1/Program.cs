@@ -28,7 +28,8 @@ namespace ConsoleApp1
 
             methods.ShowInfo(bossHealth, bossDamage, playerHealth, playerMagicEnergy);
 
-            methods.Fight(ref bossHealth, bossDamage, ref playerHealth, playerDamageBasic, playerDamageFireball, playerDamageExplosive, playerHeal, ref playerMagicEnergy, playerMagicEnergyRecover, playerFireballCost, ref playerExplosiveCharge);
+            methods.Fight( bossHealth, bossDamage,  playerHealth, playerDamageBasic, playerDamageFireball, playerDamageExplosive,
+                           playerHeal,  playerMagicEnergy, playerMagicEnergyRecover, playerFireballCost,  playerExplosiveCharge);
 
         }
 
