@@ -27,13 +27,9 @@ namespace ConsoleApp1
             int playerExplosiveCharge = 0;
 
             methods.ShowInfo(bossHealth, bossDamage, playerHealth, playerMagicEnergy);
-
             methods.Fight( bossHealth, bossDamage,  playerHealth, playerDamageBasic, playerDamageFireball, playerDamageExplosive,
                            playerHeal,  playerMagicEnergy, playerMagicEnergyRecover, playerFireballCost,  playerExplosiveCharge);
-
         }
-
-
     }
 }
 
