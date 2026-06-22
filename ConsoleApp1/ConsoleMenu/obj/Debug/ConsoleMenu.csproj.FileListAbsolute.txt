@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\ConsoleMenu\bin\Debug\ConsoleMenu.exe.config
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\ConsoleMenu\bin\Debug\ConsoleMenu.exe
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\ConsoleMenu\bin\Debug\ConsoleMenu.pdb
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\ConsoleMenu\obj\Debug\ConsoleMenu.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\ConsoleMenu\obj\Debug\ConsoleMenu.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\ConsoleMenu\obj\Debug\ConsoleMenu.exe
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\ConsoleMenu\obj\Debug\ConsoleMenu.pdb
