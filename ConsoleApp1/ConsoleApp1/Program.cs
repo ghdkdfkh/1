@@ -13,7 +13,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Methods methods = new Methods();
-
+            #region переменные
             int bossHealth = 300;
             int bossDamage = 10;
             int playerHealth = 150;
@@ -25,6 +25,7 @@ namespace ConsoleApp1
             int playerMagicEnergyRecover = 5;
             int playerFireballCost = 25;
             int playerExplosiveCharge = 0;
+            #endregion
 
             methods.ShowInfo(bossHealth, bossDamage, playerHealth, playerMagicEnergy);
             methods.Fight( bossHealth, bossDamage,  playerHealth, playerDamageBasic, playerDamageFireball, playerDamageExplosive,
