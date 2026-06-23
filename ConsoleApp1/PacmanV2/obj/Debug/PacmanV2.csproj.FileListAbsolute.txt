@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\PacmanV2\bin\Debug\PacmanV2.exe.config
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\PacmanV2\bin\Debug\PacmanV2.exe
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\PacmanV2\bin\Debug\PacmanV2.pdb
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\PacmanV2\obj\Debug\PacmanV2.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\PacmanV2\obj\Debug\PacmanV2.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\PacmanV2\obj\Debug\PacmanV2.exe
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\PacmanV2\obj\Debug\PacmanV2.pdb
