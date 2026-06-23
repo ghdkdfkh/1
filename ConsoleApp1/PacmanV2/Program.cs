@@ -12,6 +12,8 @@ namespace PacmanV2
 
         static void Main(string[] args)
         {
+            #region переменные и другое
+
             Render render = new Render();
             Controls controls = new Controls();
 
@@ -37,7 +39,13 @@ namespace PacmanV2
             char[] bag = new char[1];
 
             Console.SetCursorPosition(0, 0);
+            #endregion
 
+            Launch(render, controls, map, ref userX, ref userY, ref bag);
+        }
+
+        private static void Launch(Render render, Controls controls, char[,] map, ref int userX, ref int userY, ref char[] bag)
+        {
             while (true)
             {
                 render.Draw(map, bag);
