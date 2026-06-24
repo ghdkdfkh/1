@@ -41,10 +41,10 @@ namespace PacmanV2
             Console.SetCursorPosition(0, 0);
             #endregion
 
-            Launch(render, controls, map,  userX,  userY,  bag);
+            Launch(render, controls, map, userX, userY, bag);
         }
 
-        private static void Launch(Render render, Controls controls, char[,] map,  int userX,  int userY,  char[] bag)
+        private static void Launch(Render render, Controls controls, char[,] map, int userX, int userY, char[] bag)
         {
             while (true)
             {

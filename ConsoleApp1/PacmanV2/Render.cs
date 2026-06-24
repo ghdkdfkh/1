@@ -9,6 +9,7 @@ namespace PacmanV2
     class Render
     {
         private ConsoleColor wall = ConsoleColor.Blue;
+        private ConsoleColor bagCC = ConsoleColor.DarkGreen;
 
         private void Map(char[,] map)
         {
@@ -28,7 +29,10 @@ namespace PacmanV2
         private void Bag(char[] bag)
         {
             Console.SetCursorPosition(0, 20);
+            Console.ForegroundColor = bagCC;
             Console.Write("Сумка: ");
+            Console.ResetColor();
+
             for (int i = 0; i < bag.Length; i++)
             {
                 Console.Write(bag[i] + " ");
