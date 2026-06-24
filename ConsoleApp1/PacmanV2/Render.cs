@@ -14,6 +14,7 @@ namespace PacmanV2
         private void Map(char[,] map)
         {
             Console.SetCursorPosition(0, 0);
+
             for (int i = 0; i < map.GetLength(0); i++)
             {
                 for (int j = 0; j < map.GetLength(1); j++)
@@ -29,6 +30,7 @@ namespace PacmanV2
         private void Bag(char[] bag)
         {
             Console.SetCursorPosition(0, 20);
+
             Console.ForegroundColor = bagCC;
             Console.Write("Сумка: ");
             Console.ResetColor();
