@@ -13,9 +13,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Methods methods = new Methods();
+
             #region переменные
             int bossHealth = 300;
             int bossDamage = 10;
+
             int playerHealth = 150;
             int playerDamageBasic = 10;
             int playerDamageFireball = 20;

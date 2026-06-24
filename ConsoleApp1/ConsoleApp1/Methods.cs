@@ -22,9 +22,11 @@ namespace ConsoleApp1
             Console.ForegroundColor = _CC_Green;
             Console.WriteLine($"У вас {playerHealth} здоровья\n{playerMagicEnergy} маны\n");
             Console.ResetColor();
+
             Console.ForegroundColor = _CC_Red;
             Console.WriteLine($"У босса {bossHealth} здоровья\n{bossDamage} урона\n");
             Console.ResetColor();
+
             Console.ForegroundColor = _CC_DarkYellow;
             Console.WriteLine("Битва начинается\n");
             Console.ResetColor();
@@ -66,12 +68,14 @@ namespace ConsoleApp1
                 Console.WriteLine("Ничья");
                 Console.ResetColor();
             }
+
             else if (playerHealth <= 0)
             {
                 Console.ForegroundColor = _CC_Red;
                 Console.WriteLine("Игрок проиграл");
                 Console.ResetColor();
             }
+
             else if (bossHealth <= 0)
             {
                 Console.ForegroundColor = _CC_Green;
@@ -84,10 +88,10 @@ namespace ConsoleApp1
         {
             Console.ForegroundColor = _CC_DarkYellow;
             Console.WriteLine("Выберите действие");
-            Console.WriteLine($"{_basicAttackCase} - Нанести обычный удар с уроном {playerDamageBasic}");
-            Console.WriteLine($"{_fireballAttackCase} - Нанести удар фаерболом с уроном {playerDamageFireball} и тратой маны {playerFireballCost}");
-            Console.WriteLine($"{_explosionAttackCase} - Нанести удар взрывом с уроном {playerDamageExplosive} и тратой заряда взрыва");
-            Console.WriteLine($"{_cureCase} - Восстановить здоровье {playerHeal}");
+            Console.WriteLine($"{_basicAttackCase} - Нанести обычный удар с уроном {playerDamageBasic}\n"+
+                              $"{_fireballAttackCase} - Нанести удар фаерболом с уроном {playerDamageFireball} и тратой маны {playerFireballCost}\n" +
+                              $"{_explosionAttackCase} - Нанести удар взрывом с уроном {playerDamageExplosive} и тратой заряда взрыва\n" +
+                              $"{_cureCase} - Восстановить здоровье {playerHeal}");
             Console.ResetColor();
         }
 
@@ -107,6 +111,7 @@ namespace ConsoleApp1
                         Console.ResetColor();
                         break;
                     }
+
                     FireballAttack(ref bossHealth, playerDamageFireball, ref playerMagicEnergy, playerFireballCost, ref playerExplosiveCharge);
                     break;
 
@@ -118,6 +123,7 @@ namespace ConsoleApp1
                         Console.ResetColor();
                         break;
                     }
+
                     ExplosionAttack(ref bossHealth, playerDamageExplosive, ref playerExplosiveCharge);
                     break;
 
@@ -129,6 +135,7 @@ namespace ConsoleApp1
                         Console.ResetColor();
                         break;
                     }
+
                     playerHealth = Heal(playerHealth, playerHeal);
                     break;
 
@@ -144,6 +151,7 @@ namespace ConsoleApp1
         private int Heal(int playerHealth, int playerHeal)
         {
             playerHealth += playerHeal;
+
             Console.ForegroundColor = _CC_Green;
             Console.WriteLine($"Вы восстановили здоровье, у вас  {playerHealth} здоровья \n");
             Console.ResetColor();
@@ -155,6 +163,7 @@ namespace ConsoleApp1
         {
             bossHealth -= playerDamageExplosive;
             playerExplosiveCharge--;
+
             Console.ForegroundColor = _CC_DarkYellow;
             Console.WriteLine($"У босса осталось {bossHealth} здоровья\n");
             Console.WriteLine($"И вы потратили заряд взрыва!\n  У вас {playerExplosiveCharge} зарядов \n");
@@ -166,6 +175,7 @@ namespace ConsoleApp1
             bossHealth -= playerDamageFireball;
             playerMagicEnergy -= playerFireballCost;
             playerExplosiveCharge++;
+
             Console.ForegroundColor = _CC_DarkYellow;
             Console.WriteLine($"У босса осталось {bossHealth} здоровья\n" +
                 $"У вас осталось маны {playerMagicEnergy}\n" +
@@ -176,9 +186,11 @@ namespace ConsoleApp1
         private int BasicAttack(int bossHealth, int playerDamageBasic)
         {
             bossHealth -= playerDamageBasic;
+
             Console.ForegroundColor = _CC_Green;
             Console.WriteLine($"У босса осталось {bossHealth} здоровья\n");
             Console.ResetColor();
+
             return bossHealth;
         }
     }

@@ -19,7 +19,6 @@ namespace ConsoleMenu
 
     class Program
     {
-
         static void Main(string[] args)
         {
             bool isWorking = true;
