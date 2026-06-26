@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\CalculatorV2\bin\Debug\CalculatorV2.exe.config
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\CalculatorV2\bin\Debug\CalculatorV2.exe
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\CalculatorV2\bin\Debug\CalculatorV2.pdb
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\CalculatorV2\obj\Debug\CalculatorV2.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\CalculatorV2\obj\Debug\CalculatorV2.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\CalculatorV2\obj\Debug\CalculatorV2.exe
+C:\Users\admin\Desktop\All git projects\newproject1\ConsoleApp1\CalculatorV2\obj\Debug\CalculatorV2.pdb
