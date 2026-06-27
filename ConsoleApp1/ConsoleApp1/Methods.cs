@@ -88,7 +88,7 @@ namespace ConsoleApp1
         {
             Console.ForegroundColor = _CC_DarkYellow;
             Console.WriteLine("Выберите действие");
-            Console.WriteLine($"{_basicAttackCase} - Нанести обычный удар с уроном {playerDamageBasic}\n"+
+            Console.WriteLine($"{_basicAttackCase} - Нанести обычный удар с уроном {playerDamageBasic}\n" +
                               $"{_fireballAttackCase} - Нанести удар фаерболом с уроном {playerDamageFireball} и тратой маны {playerFireballCost}\n" +
                               $"{_explosionAttackCase} - Нанести удар взрывом с уроном {playerDamageExplosive} и тратой заряда взрыва\n" +
                               $"{_cureCase} - Восстановить здоровье {playerHeal}");
